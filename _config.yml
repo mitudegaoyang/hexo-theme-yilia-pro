@@ -108,21 +108,31 @@ gitment_oauth:
 #6、配置gitalk
 gitalk: 
   enable: false
-  client_id: '31752c9913f633616b68' # OAuth application注册成功获得
-  client_secret: 'b8b37156a3fc1529c2a78ab5792f6f0e35129341' # OAuth application注册成功获得
-  repo: 'mitudegaoyang.github.io' # 存储博客评论的仓库地址，可以是存储博客的仓库
-  owner: 'mitudegaoyang' # github账户名
-  admin: 'mitudegaoyang' # github账户名
+  client_id: '' # OAuth application注册成功获得
+  client_secret: '' # OAuth application注册成功获得
+  repo: '' # 存储博客评论的仓库地址，可以是存储博客的仓库
+  owner: '' # github账户名
+  admin: '' # github账户名
 
 #7、配置Valine
 valine: 
  enable: true
- appid: 'L4xjPyOHRVwwEJWuseTAFdkt-MdYXbMMI' #Leancloud应用的appId
- appkey: 'O9wfAc71MXNCIYIh8VULvWbe' #Leancloud应用的appKey
+ appid: '' #Leancloud应用的appId
+ appkey: '' #Leancloud应用的appKey
  verify: false #验证码，verify和notify这两个最好就别动了
  notify: false #评论回复提醒
  avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
  placeholder: 欢迎评论 #评论框占位符
+
+# 配置网易云音乐
+music: 
+ enable: true
+ src: '//music.163.com/outchain/player?type=2&id=470795480&auto=1&height=32' #网易云音乐外链地址
+ border: 0
+ marginwidth: 0
+ marginheight: 0
+ width: 240
+ height: 52
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
