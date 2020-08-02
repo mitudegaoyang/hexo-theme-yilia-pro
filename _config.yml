@@ -10,8 +10,6 @@ menu:
   # sitemap: /sitemap/
   # commonweal: /commonweal/
 
-language: zh-Hans #语言
-
 # SubNav
 subnav:
   github: "https://github.com/mitudegaoyang"
@@ -100,10 +98,10 @@ disqus: false
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
-gitment_repo: false          #存储评论的 repo
+gitment_repo: ''          #存储评论的 repo
 gitment_oauth:
-  client_id: false           #client ID
-  client_secret: false       #client secret
+  client_id: ''           #client ID
+  client_secret: ''       #client secret
 
 #6、配置gitalk
 gitalk: 
