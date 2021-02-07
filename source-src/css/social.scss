@@ -140,11 +140,53 @@
                 border:1px solid #34baad;
             }
         }
-        a.psn {
+        a.psp {
             background: #086ef6;
             border:1px solid #086ef6;
             &:hover {
-                border:1px solid #086ef6;
+                border:1px solid #0c61d1;
+            }
+        }
+        a.steam {
+            background: #1274a3;
+            border:1px solid #1274a3;
+            &:hover {
+                border:1px solid #106992;
+            }
+        }
+        a.user {
+            background: #086ef6;
+            border:1px solid #086ef6;
+            &:hover {
+                border:1px solid #0764dd;
+            }
+        }
+        a.gitee {
+            background: #c11d22;
+            border:1px solid #c11d22;
+            &:hover {
+                border:1px solid #a7181d;
+            }
+        }
+        a.blog {
+            background: #087fc8;
+            border:1px solid #087fc8;
+            &:hover {
+                border:1px solid #0766a1;
+            }
+        }
+        a.resume {
+            background: #ff6d42;
+            border:1px solid #ff6d42;
+            &:hover {
+                border:1px solid #d65c36;
+            }
+        }
+        a.gitbook {
+            background: #337df4;
+            border:1px solid #337df4;
+            &:hover {
+                border:1px solid #2a68cc;
             }
         }
     }
